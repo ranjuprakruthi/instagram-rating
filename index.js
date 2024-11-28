@@ -44,10 +44,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (type === "password") {
             passwordField.setAttribute("type", "text");
-            this.innerHTML = "🙈"; // Closed-eye emoji
+            this.innerHTML = "&#128064;"; // Use open-eye emoji or replace with an SVG/icon
         } else {
             passwordField.setAttribute("type", "password");
-            this.innerHTML = "👁️"; // Open-eye emoji
+            this.innerHTML = "&#128065;"; // Use closed-eye emoji or replace with an SVG/icon
         }
     });
 });
